@@ -7,7 +7,7 @@ from shadow.polyedr import Polyedr
 
 tk = TkDrawer()
 try:
-    for name in ["test2", "test1", "ccc", "cube", "box", "king", "cow"]:
+    for name in ["cube2", "cube1", "ccc", "cube", "box", "king", "cow"]:
         print("=============================================================")
         print(f"Начало работы с полиэдром '{name}'")
         start_time = time()
