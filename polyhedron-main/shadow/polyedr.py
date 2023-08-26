@@ -186,8 +186,7 @@ class Polyedr:
 
         self.sqr = 0
         for i in self.lst_2:
-            if any(abs(n.x) < 1 and abs(n.y) < 1 and abs(n.z) < 1 for n in
-                   i.vertexes):
+            if any(R3.is_good(n) for n in i.vertexes):
                 self.sqr += i.sqr()
 
     def ret_sqr(self):
