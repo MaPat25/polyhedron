@@ -26,12 +26,12 @@ class TestMod:
 
     # Для куба с точками с координатами = |0.5|
     def test_mod10(self):
-        pol = Polyedr("data/test1.geom")
+        pol = Polyedr("data/cube1.geom")
         assert pol.ret_sqr() == 6.0
 
     # Для куба с точками с координатами = |1|
     def test_mod20(self):
-        pol = Polyedr("data/test2.geom")
+        pol = Polyedr("data/cube2.geom")
         assert pol.ret_sqr() == 0.0
 
 
